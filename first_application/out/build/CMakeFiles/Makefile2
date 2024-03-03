@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/mido/Desktop/Projects/Cmake/cmake/first_application/ou
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/01_firstapp.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,8 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean:
+clean: CMakeFiles/01_firstapp.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/01_firstapp.dir
+
+# All Build rule for target.
+CMakeFiles/01_firstapp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_firstapp.dir/build.make CMakeFiles/01_firstapp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_firstapp.dir/build.make CMakeFiles/01_firstapp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mido/Desktop/Projects/Cmake/cmake/first_application/out/build/CMakeFiles --progress-num=1,2 "Built target 01_firstapp"
+.PHONY : CMakeFiles/01_firstapp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/01_firstapp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mido/Desktop/Projects/Cmake/cmake/first_application/out/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/01_firstapp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mido/Desktop/Projects/Cmake/cmake/first_application/out/build/CMakeFiles 0
+.PHONY : CMakeFiles/01_firstapp.dir/rule
+
+# Convenience name for target.
+01_firstapp: CMakeFiles/01_firstapp.dir/rule
+.PHONY : 01_firstapp
+
+# clean rule for target.
+CMakeFiles/01_firstapp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_firstapp.dir/build.make CMakeFiles/01_firstapp.dir/clean
+.PHONY : CMakeFiles/01_firstapp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
