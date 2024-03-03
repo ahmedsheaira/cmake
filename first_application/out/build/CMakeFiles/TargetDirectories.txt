@@ -1,0 +1,2 @@
+/Users/mido/Desktop/Projects/Cmake/cmake/first_application/out/build/CMakeFiles/edit_cache.dir
+/Users/mido/Desktop/Projects/Cmake/cmake/first_application/out/build/CMakeFiles/rebuild_cache.dir
