@@ -1,0 +1,3 @@
+/Users/mido/Desktop/Projects/Cmake/cmake/First_app/build/CMakeFiles/calcbinary.dir
+/Users/mido/Desktop/Projects/Cmake/cmake/First_app/build/CMakeFiles/edit_cache.dir
+/Users/mido/Desktop/Projects/Cmake/cmake/First_app/build/CMakeFiles/rebuild_cache.dir
